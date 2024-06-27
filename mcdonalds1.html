@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's: Burgers, Fries &amp; More. Quality Ingredients.</title>
+    <link rel="icon" type="image/png" href="data:image/png;base64,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" sizes="16x16 32x32 48x48" type="image/png">
+    <link href="mcdonalds.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   <div class="header">
+    <div class="header-box1">
+        <div class="icon">
+    <image src="images/Info-Diamond (1).svg">
+        
+    </image>
+
+        </div> 
+        <div class="text">
+    <p>
+        Our Terms and Conditions have changed. Please take a moment to<span class="text-links"> review the new McDonald’s Terms and Conditions</span> by clicking on the link. These include updates relating to Mobile Order & Pay, MyMcDonald’s Rewards, dispute resolution, and arbitration. By continuing to use our website, you are indicating that you have reviewed and agree to these Terms and Conditions. You are also indicating that you are agreeing to a legally binding contract and intend to do so.
+    </p>
+
+        </div> 
+        <div class="buttons">
+    <button class="yellow-button">Accept</button>
+
+        </div> 
+
+    </div> 
+    <div class="header-box2">
+        <div class="header-box2-logo">
+            <image src="images/mclogo.jpg">
+        
+            </image>
+        
+                    </div> 
+        <div class="header-grid">
+            
+        <div class="header-box2-line1">
+            <div class="header-box2-line1-language">
+           <label>
+            Language
+           </label>
+           <select style="border:0px"> </select>
+
+
+            </div> 
+            <div class="header-box2-line1-sign">
+           
+        <p>
+            Sign Up for Email
+        </p>
+
+            </div> 
+            <div class="header-box2-line1-careers">
+           
+        <p>
+        Careers
+        </p>
+
+            </div> 
+
+
+
+        </div> 
+        <div class="header-box2-line2">
+            
+            <div class="header-box2-line2-search">
+                
+           <p>
+            Search
+           </p>
+        
+
+            </div> 
+            <div class="header-box2-line2-location">
+           <image src="images/icons8-location-64.png" width="21.85" height="22.4">
+
+           </image>
+        <p><span class="text-links">Find your Restaurant</span></p>
+
+            </div> 
+            <div class="header-box2-line2-button">
+           <button class="yellow-button">
+            Order Now
+           </button>
+        
+
+            </div> 
+
+        </div>
+        <div class="header-box2-line3">
+    
+              <div>
+                <p>
+              Our Menu
+            </p>
+             <select style="border:0px">
+                
+             </select>
+              </div>
+              <div>
+                <p>
+                  
+                 Download App
+                  </p>
+              
+              </div>
+              <div>
+                <p>
+                  
+                
+                 MyMcDonald's Rewards
+                     </p>
+
+              </div>
+              <div>
+                <p>
+                  
+                
+                 Exclusive
+
+                  </p>
+              
+              </div>
+              
+
+        </div> 
+        <div class="header-box2-line4">
+            <div>
+                <p>
+                  
+                
+                  Deals
+
+                  </p>
+              
+              </div>
+              <div>
+                <p>
+                
+                   About Our Food
+                </p>
+
+              </div>
+              <div>
+                <p>
+                
+                   McDelivery®
+                </p>
+
+              </div>
+              <div>
+                <p>
+                
+                  Locate
+                </p>
+
+              </div>
+              <div>
+                <p>
+                
+                Gift Cards
+                </p>
+
+              </div>
+    
+    
+
+        </div> 
+    </div>
+    </div> 
+   </div> 
+   <div class="content-body">
+    <div class="content">
+        <div class="grid-content">
+        <div class="content1">
+            <div class="image-box">
+          <image src="images/pic1.jpg" width="748.01">
+           
+          </image>
+            </div>
+            <div class="text-box">
+        <p class="content-heading">
+            Free large Fries w/ $1 min. purchase
+        </p>
+        <p class="content-text">
+            Free large Fries to keep you company. Download the app and get 'em with your first purchase of $1+.* Every $1 you spend earns 100 points, redeemable for free food.
+        </p>
+        <p class="content-description">
+            *Offer valid 1x thru the last day of month for first time app users at participating McDonald’s. May take up to 48 hours to appear in your deals. Must opt in to Rewards. Excludes tax.
+        </p>
+         <button class="yellow-button">
+            Get Free Large Fries in the App
+         </button>
+      
+            </div>
+    
+      
+        </div>
+        <div class="content2">
+            <div class="image-box">
+                <image src="images/pic2.jpg" width="748.01">
+                 
+                </image>
+                  </div>
+                  <div class="text-box">
+              <p class="content-heading">
+                McDelivery® is where you get food. And free food.
+              </p>
+              <p class="content-text">
+                Every McDelivery order in the app lets you earn MyMcDonald’s Rewards points—use those to get your free food. And, yup, you can get ‘em delivered, too. Imagine, McD’s you didn’t pay for brought right to you.<span class="text-links"> Check out how easy ordering delivery is in the app</span>.*
+              </p>
+              <p class="content-description">
+                *At participating McDonald's. Must opt into Rewards. McDelivery prices may be higher than at restaurants. Delivery/other fees may apply.
+              </p>
+               <button class="yellow-button">
+                Earn Points with McDelivery
+               </button>
+            
+                  </div>  
+        
+    
+      
+        </div>
+        <div class="content3">
+            <div class="image-box">
+                <image src="images/pic3.jpg" width="748.01">
+                 
+                </image>
+                  </div>
+                  <div class="text-box">
+              <p class="content-heading">
+                ‘More Black Designers’ is the New Black
+              </p>
+              <p class="content-text">
+                Free large Fries to keep you company. Download the app and get 'em with your first purchase of $1+.* Every $1 you spend earns 100 points, redeemable for free food.
+              </p>
+              <p class="content-text">
+                So, we’re pairing five, rising Black designers with five fashion insiders for career-changing mentorships. The program will also provide access and resources, and give their brands a chance to shine.
+              </p>
+              <p class="content-description">
+                *Per <span class="text-links">Zippia.com </span>as of 2021.
+              </p>
+               <button class="yellow-button">
+                Follow on Instagram @wearegolden
+               </button>
+            
+                  </div>
+    
+      
+        </div>
+        <div class="content4">
+            <div class="image-box">
+                <image src="images/pic4.jpg" width="748.01">
+                 
+                </image>
+                  </div>
+                  <div class="text-box">
+              
+              <p class="content-heading">
+                “McD’s Best Burgers Ever.” - Hamburglar
+              </p>
+              <p class="content-text">
+                You’re gonna love the hotter, juicier, tastier upgrades we’ve made to burgers like our Cheeseburger and Double Cheeseburger.* From patties grilled with onions and perfectly melted cheese to new soft, pillowy buns—these are our best burgers yet. Ask the Hamburglar, he can’t keep his hands off of ‘em. Robble, robble.
+              </p>
+              <p class="content-text">
+                Get one today in the app for pickup or McDelivery®.^
+              </p>
+              <p class="content-description">
+                *Comparison of McDonald’s classic burgers to prior burgers.
+^At participating McDonald’s. McDelivery prices may be higher than at restaurants. Delivery/other fees may apply.
+              </p>
+               <button class="yellow-button">
+                  Get Free Large Fries in the App
+               </button>
+            
+                  </div>
+    
+      
+        </div>
+        <div class="content5">
+            <div class="image-box">
+                <image src="images/pic5.jpg" width="748.01">
+                 
+                </image>
+                  </div>
+                  <div class="text-box">
+                    <p class="content-heading">
+                        Free large Fries w/ $1 min. purchase
+                    </p>
+                    <p class="content-text">
+                      Get a pair of McDonald’s branded clogs or limited edition Grimace, Birdie or Hamburglar Crocs decked out with fun McDonald’s x Crocs JibbitzTM charms or socks. Hurry, before it’s too late.*
+                    </p>
+                    <p class="content-text">
+                      In celebration of the Crocs partnership, McDonald’s will be making a donation to <span class="text-links">Ronald McDonald House Charities®</span> to help support families when they have a child who is ill or injured.
+                    </p>
+                    <p class="content-description">
+                        *While supplies last.
+                    </p>
+               <button class="yellow-button">
+                Shop the Collab Now
+               </button>
+            
+                  </div>
+    
+      
+        </div>
+        <div class="content6">
+            <div class="image-box">
+                <image src="images/pic6.jpg" width="748.01">
+                 
+                </image>
+                  </div>
+                  <div class="text-box">
+              <p class="content-heading">
+                New: Faster Faves, Only in the App
+              </p>
+              <p class="content-text">
+                We now prep when you’re on the way if you choose Curbside, Front Counter—or dine in for Table Service. Just order ahead in the app to save time. Because waiting in line for faves? Not our thing either.*
+              </p>
+              
+              <p class="content-description">
+                *At participating McDonald’s.
+              </p>
+               <button class="yellow-button">
+                Order Ahead in the App
+               </button>
+            
+                  </div>
+    
+      
+        </div>
+        <div class="content7">
+            <div class="image-box">
+                <image src="images/pic7.jpg" width="748.01">
+                 
+                </image>
+                  </div>
+                  <div class="text-box">
+              <p class="content-heading">
+                Deals for Days
+              </p>
+              <p class="content-text">
+                Get <span class="text-links">exclusive deals </span>on your McDonald’s favorites in the app with contactless Mobile Order & Pay* and convenient Drive Thru or Curbside pickup.
+              </p>
+              <p class="content-description">
+                *Mobile Order & Pay at participating McDonald’s.
+              </p>
+               <button class="yellow-button">
+                  Get App Deals
+               </button>
+            
+                  </div>
+    
+      
+        </div>
+        
+    
+    </div>
+    </div>
+    <div class="end-section-space">
+        <div class="end-section-grid">
+            
+            <div class="end-section1">
+            <p>
+                <div class="text-dark">About Us</div>
+<div>About Us Overview</div>
+<div>Leadership Team</div>
+<div>Values In Action</div>
+<div>Franchising info</div>
+<div>Recalls & Alerts</div>
+<div>Real Estate</div>
+<div>Accessibility</div>
+<div>Investor Relations</div>
+<div>News & Notifications</div>
+            </p>
+        
+        
+            </div>
+            <div class="end-section2">
+            <p>
+                <div class="text-dark">Services</div>
+                <div>Services Overview</div>
+                <div>Delivery Partners</div>
+                <div>Wi-Fi</div>
+                <div>PlayPlaces & Parties</div>
+                <div>Mobile Order & Pay</div>
+                <div>Trending Now</div>
+                <div>McDonald’s Merchandise</div>
+                <div>Family Fun Hub</div>
+               <div> MyMcDonald's Rewards</div>
+                <div>McCafé®</div>
+            </p>
+        
+        
+            </div>
+            <div class="end-section3">
+            <p>
+                <div class="text-dark">Community</div>
+                <div>Community Overview</div>
+               <div> Now Serving</div>
+                <div>HACER® Scholarships for Hispanic Students</div>
+                <div>Ronald McDonald House Charities®</div>
+                <div>McDonald’s Asian Pacific American</div>
+               <div> McDonald’s International</div>
+               <div> Black and Positively Golden</div>
+                <div>McDonald’s LGBTQ+</div>
+            </p>
+        
+        
+            </div>
+            <div class="end-section4">
+            <p>
+                <div class="text-dark">Contact Us</div>
+                <div>Contact Us Overview</div>
+                <div>Gift Card FAQs</div>
+                <div>Donations</div>
+                <div>Employment</div>
+                <div>Customer Feedback</div>
+                <div>Frequently Asked Questions</div>
+            </p>
+        
+        
+            </div>
+
+            
+        
+        </div>
+        <image src="images/Screenshot 2024-06-25 175848.png" width="1060px">
+
+        </image>
+        <hr class="endsection-seperator">
+        
+    </div>
+      
+   </div>
+   <div class="footer">
+    <div class="footer-grid">
+     <div class="footer-left">
+     <div class="footer-left-row1">
+    <div class="footer-left1">
+    Privacy (Updated)
+   </div>
+    <div class="footer-left2">
+    California Privacy Notice
+   </div>
+    <div class="footer-left3">
+    Consumer Health Data
+
+   </div>
+    <div class="footer-left4">
+    Terms & Conditions
+   </div>
+   <div class="footer-leftlogo">
+    <image src="images/arches-logo_108x108.jpg" height="28px" width="28"></image>
+   </div>
+   <div class="footer-left-rights">
+    © 2017 - 2024 McDonald's. All Rights Reserved
+   </div>
+   </div>
+    <div class="footer-left-row2">
+    <div class="footer-left5">
+    Accessibility
+
+   </div>
+    <div class="footer-left6">
+    Do Not Sell or Share My Personal Information
+
+   </div>
+   
+   
+</div>
+   </div>
+   </div>
+    
+   </div>
+</body>
+</html>
